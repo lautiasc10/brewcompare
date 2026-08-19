@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://lautiasc10.github.io/brewcompare/sitemap.xml
