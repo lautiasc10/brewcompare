@@ -74,12 +74,17 @@ def guide_url(g):
 
 def affiliate_url(p):
     """Invariant 1: the user's link is sacred. If a record carries an explicit
-    affiliate_url we use it verbatim; otherwise we build the canonical Amazon
-    URL and append the site-wide associate tag."""
+    affiliate_url we use it verbatim; otherwise we build a URL from the ASIN and
+    append the site-wide associate tag. When we could not verify an ASIN we fall
+    back to a tagged Amazon search for the exact model — a real, working,
+    monetised link, never a guessed product id."""
     if p.get("affiliate_url"):
         return p["affiliate_url"]
     tag = SITE.get("affiliate_tag", "")
-    return f"https://www.amazon.com/dp/{p['asin']}?tag={tag}"
+    if p.get("asin"):
+        return f"https://www.amazon.com/dp/{p['asin']}?tag={tag}"
+    from urllib.parse import quote_plus
+    return f"https://www.amazon.com/s?k={quote_plus(p['name'])}&tag={tag}"
 
 
 def is_deal(p):
@@ -408,11 +413,12 @@ def price_block(p, big=True):
 
 def rating_block(p):
     if p.get("rating") is None:
-        return '<span class="muted small">No rating yet</span>'
+        return '<span class="muted small">No verified rating yet</span>'
     src = p.get("rating_source", "customer reviews")
+    count = (f'<span class="muted small">({p["rating_count"]:,} reviews)</span>'
+             if p.get("rating_count") else "")
     return (f'<span class="stars" title="{e(src)}"><span class="stars-glyph" aria-hidden="true">{stars(p["rating"])}</span>'
-            f'<span class="num">{p["rating"]:g}</span>'
-            f'<span class="muted small">({p["rating_count"]:,} reviews)</span></span>')
+            f'<span class="num">{p["rating"]:g}</span>{count}</span>')
 
 
 def buy_button(p, cls="btn btn-primary", label=None):
@@ -737,7 +743,7 @@ def build_ficha(p):
     if p.get("rating") is not None:
         ld_product["aggregateRating"] = {
             "@type": "AggregateRating", "ratingValue": p["rating"],
-            "reviewCount": p["rating_count"],
+            "reviewCount": p.get("rating_count") or 1,
         }
 
     body = f"""
@@ -839,7 +845,7 @@ def build_ficha(p):
         <div class="card card-pad">
           <p class="review-quote">{e(p['reviews_summary'])}</p>
           <p class="tiny muted" style="margin-top:1rem">Summarised from {e(p.get('rating_source', 'published customer reviews'))}
-             {f"&mdash; {p['rating']:g}/5 across {p['rating_count']:,} reviews" if p.get('rating') else ''}.
+             {f"&mdash; {p['rating']:g}/5" if p.get('rating') else ''}{f" across {p['rating_count']:,} reviews" if p.get('rating_count') else ''}.
              Ratings move; check the live rating on Amazon.</p>
         </div>
       </div>

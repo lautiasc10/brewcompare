@@ -33,6 +33,41 @@ MACHINES = {
         "screen": "#141b24", "glow": "#c9963f", "wand": False, "carafe": False,
         "label": "JURA E8",
     },
+    "philips-3200-lattego": {
+        "body": "#3a3d42", "body_dark": "#26282c", "trim": "#b6bac0",
+        "screen": "#10262f", "glow": "#4bb3d8", "wand": False, "carafe": True,
+        "label": "3200 LATTEGO",
+    },
+    "gaggia-anima-prestige": {
+        "body": "#c2c5c9", "body_dark": "#8d9196", "trim": "#33363b",
+        "screen": "#0e1a33", "glow": "#4a72c4", "wand": False, "carafe": True,
+        "label": "ANIMA PRESTIGE",
+    },
+    "delonghi-dinamica-plus": {
+        "body": "#a9adb3", "body_dark": "#7d8288", "trim": "#2f3237",
+        "screen": "#151a22", "glow": "#c47b3a", "wand": False, "carafe": True,
+        "label": "DINAMICA PLUS",
+    },
+    "philips-5500-lattego": {
+        "body": "#26282b", "body_dark": "#17191b", "trim": "#cfd3d8",
+        "screen": "#0d2b3a", "glow": "#3fa9d6", "wand": False, "carafe": True,
+        "label": "5500 LATTEGO",
+    },
+    "jura-ena-8": {
+        "body": "#202226", "body_dark": "#141619", "trim": "#c0c5cc",
+        "screen": "#141b24", "glow": "#c9963f", "wand": False, "carafe": False,
+        "label": "JURA ENA 8",
+    },
+    "miele-cm5310-silence": {
+        "body": "#232427", "body_dark": "#141517", "trim": "#9aa0a8",
+        "screen": "#1a1410", "glow": "#b8383c", "wand": False, "carafe": False,
+        "label": "MIELE CM 5310",
+    },
+    "jura-we8": {
+        "body": "#2b2d31", "body_dark": "#1a1c1f", "trim": "#c3c8ce",
+        "screen": "#141b24", "glow": "#c9963f", "wand": False, "carafe": False,
+        "label": "JURA WE8",
+    },
 }
 
 W = H = 640
