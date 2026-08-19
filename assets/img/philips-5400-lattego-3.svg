@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img">
+<defs>
+  <linearGradient id="bgphilips5400lattego3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f8f2e8"/><stop offset="1" stop-color="#eadfcd"/>
+  </linearGradient>
+  <radialGradient id="glowphilips5400lattego3" cx="50%" cy="38%" r="52%">
+    <stop offset="0" stop-color="#3fa9d6" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#3fa9d6" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bodyphilips5400lattego3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#212427"/>
+    <stop offset=".42" stop-color="#2f3236"/>
+    <stop offset="1" stop-color="#212427"/>
+  </linearGradient>
+  <linearGradient id="chromephilips5400lattego3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#c7cbd1" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#c7cbd1"/>
+    <stop offset="1" stop-color="#c7cbd1" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="scrphilips5400lattego3" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0f2f3d"/><stop offset="1" stop-color="#05070a"/>
+  </linearGradient>
+</defs>
+<rect width="640" height="640" fill="url(#bgphilips5400lattego3)"/>
+<rect width="640" height="640" fill="url(#glowphilips5400lattego3)"/>
+<ellipse cx="320" cy="556" rx="196" ry="24" fill="#2a201a" opacity=".14"/><rect x="156" y="72" width="330" height="150" rx="22" fill="url(#bodyphilips5400lattego3)"/><rect x="180" y="100" width="282" height="10" rx="5" fill="url(#chromephilips5400lattego3)" opacity=".55"/><rect x="216" y="212" width="210" height="66" rx="16" fill="#212427"/><rect x="234" y="228" width="174" height="8" rx="4" fill="url(#chromephilips5400lattego3)" opacity=".8"/><rect x="286" y="276" width="16" height="30" rx="6" fill="url(#chromephilips5400lattego3)"/><rect x="342" y="276" width="16" height="30" rx="6" fill="url(#chromephilips5400lattego3)"/><rect x="294" y="306" width="4" height="72" rx="2" fill="#7a4a26" opacity=".85"/><rect x="350" y="306" width="4" height="72" rx="2" fill="#7a4a26" opacity=".85"/><path d="M242 376 L404 376 L386 486 Q384 500 370 500 L276 500 Q262 500 260 486 Z" fill="#fdfaf4"/><path d="M242 376 L404 376 L400 400 L246 400 Z" fill="#e8ddcb"/><path d="M404 402 q46 4 42 40 q-4 36 -48 36" fill="none" stroke="#fdfaf4" stroke-width="14" stroke-linecap="round"/><ellipse cx="323" cy="380" rx="78" ry="13" fill="#5d3819"/><ellipse cx="323" cy="378" rx="60" ry="9" fill="#c99659"/><ellipse cx="305" cy="377" rx="16" ry="5" fill="#e5c9a2" opacity=".8"/><ellipse cx="323" cy="506" rx="118" ry="17" fill="#f3ece0"/><ellipse cx="323" cy="502" rx="118" ry="17" fill="#fdfaf4"/><path d="M286 350 q-16 -26 0 -50 q16 -24 0 -48" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.50"/><path d="M323 350 q-16 -26 0 -50 q16 -24 0 -48" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.42"/><path d="M360 350 q-16 -26 0 -50 q16 -24 0 -48" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.34"/></svg>
