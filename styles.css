@@ -132,6 +132,11 @@ svg.ic, .ic svg, button svg.ic, a svg.ic, li > svg.ic, h3 > svg.ic, td svg.ic, t
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
+/* Author `display` declarations beat the UA stylesheet's [hidden] rule, so a
+   component with its own display value ignores the hidden attribute unless we
+   re-assert it here. This is what makes the category filter actually filter. */
+[hidden] { display: none !important; }
+
 .skip-link {
   position: fixed; top: -100px; left: 1rem; z-index: 9999;
   padding: .65rem 1.1rem; background: var(--ink); color: var(--bg);
