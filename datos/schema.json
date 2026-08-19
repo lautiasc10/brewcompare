@@ -1,0 +1,72 @@
+{
+  "$comment": "BrewCompare product schema - superautomatic espresso machines. Every field the site renders is declared here: type, unit, whether higher is better (drives the comparator's best-value highlight), and which spec group it belongs to. The build script reads this file; adding a spec field here makes it appear in every ficha and in the comparator automatically.",
+  "version": 1,
+  "niche": "superautomatic-espresso-machines",
+
+  "categories": [
+    { "id": "home",         "name": "Home",         "tagline": "One or two coffee drinkers, a normal kitchen counter.", "blurb": "Machines built for a household: simple menus, easy daily cleaning and a price that makes sense against a daily café habit." },
+    { "id": "office",       "name": "Office",        "tagline": "Shared kitchens, several people, all day long.", "blurb": "Bigger hoppers, multiple user profiles and milk systems that survive being used by people who will not read the manual." },
+    { "id": "professional", "name": "Professional",  "tagline": "High volume, back-to-back drinks.", "blurb": "Machines with the thermal recovery and duty cycle to keep going through a rush without a cool-down." },
+    { "id": "premium",      "name": "Premium",       "tagline": "The best cup money can buy at home.", "blurb": "Top-tier extraction technology, colour displays, one-touch specialities and the build to match the price tag." }
+  ],
+
+  "spec_groups": [
+    { "id": "extraction", "name": "Extraction & brewing" },
+    { "id": "grinder",    "name": "Grinder" },
+    { "id": "capacity",   "name": "Capacities" },
+    { "id": "drinks",     "name": "Drinks & controls" },
+    { "id": "milk",       "name": "Milk system" },
+    { "id": "care",       "name": "Cleaning & maintenance" },
+    { "id": "physical",   "name": "Build & dimensions" }
+  ],
+
+  "specs": [
+    { "key": "pressure_bar",        "label": "Pump pressure",          "group": "extraction", "type": "number", "unit": "bar",   "better": "higher", "compare": true },
+    { "key": "power_w",             "label": "Power",                  "group": "extraction", "type": "number", "unit": "W",     "better": "none",   "compare": true },
+    { "key": "boiler_type",         "label": "Heating system",         "group": "extraction", "type": "text",   "unit": null,    "better": "none",   "compare": true },
+    { "key": "first_cup_seconds",   "label": "First cup from cold",    "group": "extraction", "type": "number", "unit": "s",     "better": "lower",  "compare": true },
+    { "key": "temperature_settings","label": "Brew temperature levels","group": "extraction", "type": "number", "unit": null,    "better": "higher", "compare": true },
+
+    { "key": "grinder_integrated",  "label": "Integrated grinder",     "group": "grinder", "type": "bool",   "unit": null,    "better": "higher", "compare": true },
+    { "key": "grinder_type",        "label": "Burr type",              "group": "grinder", "type": "text",   "unit": null,    "better": "none",   "compare": true },
+    { "key": "grind_settings",      "label": "Grind settings",         "group": "grinder", "type": "number", "unit": "steps", "better": "higher", "compare": true },
+    { "key": "bypass_doser",        "label": "Pre-ground bypass",      "group": "grinder", "type": "bool",   "unit": null,    "better": "higher", "compare": true },
+
+    { "key": "water_tank_l",        "label": "Water tank",             "group": "capacity", "type": "number", "unit": "L",  "better": "higher", "compare": true },
+    { "key": "bean_hopper_g",       "label": "Bean hopper",            "group": "capacity", "type": "number", "unit": "g",  "better": "higher", "compare": true },
+    { "key": "grounds_capacity",    "label": "Grounds drawer",         "group": "capacity", "type": "number", "unit": "pucks", "better": "higher", "compare": true },
+
+    { "key": "drinks_one_touch",    "label": "One-touch drinks",       "group": "drinks", "type": "number", "unit": null, "better": "higher", "compare": true },
+    { "key": "user_profiles",       "label": "User profiles",          "group": "drinks", "type": "number", "unit": null, "better": "higher", "compare": true },
+    { "key": "display_type",        "label": "Display",                "group": "drinks", "type": "text",   "unit": null, "better": "none",   "compare": true },
+    { "key": "touchscreen",         "label": "Touch controls",         "group": "drinks", "type": "bool",   "unit": null, "better": "higher", "compare": true },
+    { "key": "iced_coffee_mode",    "label": "Iced coffee mode",       "group": "drinks", "type": "bool",   "unit": null, "better": "higher", "compare": true },
+
+    { "key": "milk_system",         "label": "Milk system",            "group": "milk", "type": "text",   "unit": null,  "better": "none",   "compare": true },
+    { "key": "milk_one_touch",      "label": "One-touch milk drinks",  "group": "milk", "type": "bool",   "unit": null,  "better": "higher", "compare": true },
+    { "key": "milk_carafe_l",       "label": "Milk carafe",            "group": "milk", "type": "number", "unit": "L",   "better": "higher", "compare": true },
+
+    { "key": "auto_rinse",          "label": "Automatic rinse cycle",  "group": "care", "type": "bool", "unit": null, "better": "higher", "compare": true },
+    { "key": "auto_milk_clean",     "label": "Automatic milk cleaning","group": "care", "type": "bool", "unit": null, "better": "higher", "compare": true },
+    { "key": "removable_brew_group","label": "Removable brew group",   "group": "care", "type": "bool", "unit": null, "better": "higher", "compare": true },
+    { "key": "water_filter",        "label": "Water filter system",    "group": "care", "type": "text", "unit": null, "better": "none",   "compare": true },
+    { "key": "dishwasher_safe_parts","label": "Dishwasher-safe parts", "group": "care", "type": "bool", "unit": null, "better": "higher", "compare": true },
+
+    { "key": "noise_db",            "label": "Grinder noise",          "group": "physical", "type": "number", "unit": "dB", "better": "lower",  "compare": true },
+    { "key": "housing_material",    "label": "Housing material",       "group": "physical", "type": "text",   "unit": null, "better": "none",   "compare": true },
+    { "key": "width_cm",            "label": "Width",                  "group": "physical", "type": "number", "unit": "cm", "better": "lower",  "compare": true },
+    { "key": "depth_cm",            "label": "Depth",                  "group": "physical", "type": "number", "unit": "cm", "better": "lower",  "compare": true },
+    { "key": "height_cm",           "label": "Height",                 "group": "physical", "type": "number", "unit": "cm", "better": "lower",  "compare": true },
+    { "key": "weight_kg",           "label": "Weight",                 "group": "physical", "type": "number", "unit": "kg", "better": "none",   "compare": true },
+    { "key": "warranty_years",      "label": "Warranty",               "group": "physical", "type": "number", "unit": "yr", "better": "higher", "compare": true }
+  ],
+
+  "scores": [
+    { "key": "coffee",   "label": "Coffee quality", "how": "Pump pressure, burr type and grind range, extraction technology (pulse / pre-infusion) and the temperature control on offer." },
+    { "key": "milk",     "label": "Milk drinks",    "how": "Whether milk drinks are one-touch, how good the foam is in hands-on reviews, and how forgiving the system is for a beginner." },
+    { "key": "ease",     "label": "Ease of use",    "how": "Display quality, number of one-touch recipes, user profiles, and how much you have to learn before the first good cup." },
+    { "key": "care",     "label": "Cleaning",       "how": "Removable brew group, automatic rinse and milk-clean cycles, dishwasher-safe parts and how long descaling intervals are." },
+    { "key": "quiet",    "label": "Quietness",      "how": "Measured grinder noise where reviewers published a figure, plus consistent reports of noise in owner reviews." },
+    { "key": "value",    "label": "Value",          "how": "What you get per dollar against the rest of this catalogue, at the price the machine actually sells for." }
+  ]
+}
