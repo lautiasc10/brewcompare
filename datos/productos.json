@@ -11,8 +11,116 @@
     "currency": "USD",
     "year": 2026
   },
-
   "products": [
+    {
+      "id": "philips-3200-lattego",
+      "asin": "B07VFY4MXM",
+      "name": "Philips 3200 Series LatteGo EP3241/54",
+      "short_name": "Philips 3200 LatteGo",
+      "brand": "Philips",
+      "model": "EP3241/54",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B07VFY4MXM",
+      "categories": [
+        "home"
+      ],
+      "featured": true,
+      "editor_badge": "Cheapest one-touch milk",
+      "images": [
+        "assets/img/philips-3200-lattego-1.svg",
+        "assets/img/philips-3200-lattego-2.svg",
+        "assets/img/philips-3200-lattego-3.svg"
+      ],
+      "retail_price": 799.0,
+      "sale_price": 549.0,
+      "price_band": "bajo",
+      "price_date": "2026-08-19",
+      "rating": 4.0,
+      "rating_count": null,
+      "rating_source": "RoastAroma aggregated community rating",
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1500,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": 120,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "100% ceramic flat burr",
+        "grind_settings": 12,
+        "bypass_doser": true,
+        "water_tank_l": 1.8,
+        "bean_hopper_g": 275,
+        "grounds_capacity": 12,
+        "drinks_one_touch": 5,
+        "user_profiles": 1,
+        "display_type": "Touch panel with icons",
+        "touchscreen": true,
+        "iced_coffee_mode": false,
+        "milk_system": "LatteGo two-piece tube-free carafe",
+        "milk_one_touch": true,
+        "milk_carafe_l": 0.26,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": true,
+        "water_filter": "AquaClean CA6903",
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Plastic",
+        "width_cm": 24.6,
+        "depth_cm": 43.3,
+        "height_cm": 37.1,
+        "weight_kg": null,
+        "warranty_years": 2
+      },
+      "specs_extra": {
+        "Cup clearance": "14 cm",
+        "Grinder durability claim": "20,000 cups",
+        "Descaling interval": "Up to 5,000 cups with timely AquaClean filter changes",
+        "Milk carafe cleaning": "Two parts, rinses at the tap; dishwasher safe",
+        "Noise": "Reviewers describe the grinder and frother as above average for the class; Philips does not publish a decibel figure"
+      },
+      "scores": {
+        "coffee": 6,
+        "milk": 8,
+        "ease": 8,
+        "care": 9,
+        "quiet": 3,
+        "value": 9
+      },
+      "summary": "The cheapest way to get a one-touch cappuccino from whole beans. You give up espresso intensity — the brew basket runs fast and the shot comes out light — but you get the same tube-free LatteGo carafe as machines twice the price, and a ceramic grinder rated for 20,000 cups.",
+      "body": "<p>Everything Philips learned about making milk drinks survivable in a normal kitchen is in this machine, and almost nothing else is. The LatteGo carafe is identical in concept to the one on the 5400: two pieces, no tubes, rinse it at the tap. At this price that is genuinely unusual — most machines under $600 either give you a manual wand or a milk system with tubing you will stop cleaning within a month.</p><p>The compromise is in the cup. The brew basket has relatively large holes and the extraction runs fast, which produces a lighter, thinner espresso than the De'Longhi Magnifica Evo at a similar price. If you drink milk-based coffee, the milk covers most of that. If you drink straight espresso, you will notice, and the Magnifica Evo is the better buy despite its manual wand.</p><p>Five one-touch drinks is a short menu, but they are the five most people actually make. The ceramic burrs give twelve grind steps and Philips rates them for 20,000 cups. AquaClean stretches descaling to a claimed 5,000 cups with timely filter changes, which is the difference between a machine you maintain occasionally and one that nags. It is noisy — reviewers consistently flag the grinder and frother — and the shell is unashamedly plastic.</p>",
+      "pros": [
+        "Tube-free LatteGo carafe at the lowest price in this catalogue",
+        "100% ceramic burrs with 12 grind steps, rated for 20,000 cups",
+        "Removable brew group you can rinse under the tap",
+        "AquaClean stretches descaling to a claimed 5,000 cups",
+        "Compact enough for a small kitchen at 24.6 cm wide"
+      ],
+      "cons": [
+        "Espresso is light and fast — the weakest shot in this catalogue",
+        "Only 5 one-touch drinks and a single user profile",
+        "Noisy grinder and frother, and no published decibel figure",
+        "Plainly plastic build",
+        "No iced coffee program"
+      ],
+      "ideal_for": "Someone who drinks cappuccinos and lattes rather than espresso, wants one-touch milk, and has a hard ceiling around $550.",
+      "not_for": "An espresso drinker — the shot is the weakest here, and the Magnifica Evo beats it in the cup for similar money.",
+      "reviews_summary": "Rated around 4.0 out of 5 in aggregated community reviews. Owners overwhelmingly praise the milk carafe cleanup and the low running cost, and the criticism is consistent and specific: the espresso is thinner than expected and the machine is loud. Reviewers who bought it expecting a milk-drink machine are happy; those who bought it expecting espresso are the ones who complain.",
+      "sources": [
+        {
+          "label": "Philips — 3200 Series official product page",
+          "url": "https://www.usa.philips.com/c-p/EP3241_54/3200-series-fully-automatic-espresso-machines"
+        },
+        {
+          "label": "RoastAroma — Philips 3200 LatteGo review and specs",
+          "url": "https://roastaroma.com/gear/philips-3200-lattego"
+        },
+        {
+          "label": "Amazon — product listing",
+          "url": "https://www.amazon.com/dp/B07VFY4MXM"
+        }
+      ]
+    },
     {
       "id": "delonghi-magnifica-evo",
       "asin": "B0B38KFWNK",
@@ -22,7 +130,9 @@
       "model": "ECAM29043SB",
       "affiliate_url": null,
       "canonical_url": "https://www.amazon.com/dp/B0B38KFWNK",
-      "categories": ["home"],
+      "categories": [
+        "home"
+      ],
       "featured": true,
       "editor_badge": "Best value",
       "images": [
@@ -30,7 +140,6 @@
         "assets/img/delonghi-magnifica-evo-2.svg",
         "assets/img/delonghi-magnifica-evo-3.svg"
       ],
-
       "retail_price": 749.95,
       "sale_price": 599.95,
       "price_band": "mid",
@@ -38,39 +147,32 @@
       "rating": 4.4,
       "rating_count": 38,
       "rating_source": "Best Buy customer reviews",
-
       "specs": {
         "pressure_bar": 15,
         "power_w": 1250,
         "boiler_type": "Thermoblock",
         "first_cup_seconds": 38,
         "temperature_settings": 3,
-
         "grinder_integrated": true,
         "grinder_type": "Steel conical burr",
         "grind_settings": 13,
         "bypass_doser": true,
-
         "water_tank_l": 1.8,
         "bean_hopper_g": 250,
         "grounds_capacity": 14,
-
         "drinks_one_touch": 7,
         "user_profiles": 1,
         "display_type": "Backlit soft-touch panel",
         "touchscreen": true,
         "iced_coffee_mode": true,
-
         "milk_system": "Manual steam wand",
         "milk_one_touch": false,
         "milk_carafe_l": null,
-
         "auto_rinse": true,
         "auto_milk_clean": false,
         "removable_brew_group": true,
         "water_filter": "De'Longhi water softener filter",
         "dishwasher_safe_parts": true,
-
         "noise_db": 68,
         "housing_material": "Plastic with stainless steel internals",
         "width_cm": 24.0,
@@ -79,20 +181,22 @@
         "weight_kg": 9.4,
         "warranty_years": 2
       },
-
       "specs_extra": {
         "One-touch recipes": "Espresso, Coffee, Americano, Long, Over Ice and more",
         "Voltage": "120 V",
         "Warranty extension": "+1 year with product registration",
         "Noise figure": "65–70 dB measured by reviewers during grinding, not a manufacturer spec"
       },
-
-      "scores": { "coffee": 7, "milk": 5, "ease": 7, "care": 8, "quiet": 5, "value": 9 },
-
+      "scores": {
+        "coffee": 7,
+        "milk": 5,
+        "ease": 7,
+        "care": 8,
+        "quiet": 5,
+        "value": 9
+      },
       "summary": "The cheapest way into real bean-to-cup espresso without giving up a proper burr grinder. You get 15-bar extraction, 13 grind settings and a removable brew group at a price where most machines still use a pressurised basket. The catch is the milk: it is a manual steam wand, so lattes are a skill you learn rather than a button you press.",
-
       "body": "<p>The Magnifica Evo is the machine most people should start with, and that is not faint praise. De'Longhi put a genuine steel conical burr grinder with 13 settings inside a machine that regularly sells under six hundred dollars, and the extraction hardware behind it is the same 15-bar thermoblock arrangement used further up the range. From cold, the first cup lands in around 38 seconds, which is fast enough that you never find yourself waiting for it in the morning.</p><p>Where it saves money is the interface and the milk. The control panel is a backlit touch strip rather than a colour screen, and there are no user profiles, so a two-person household shares one set of settings. Milk drinks go through a traditional steam wand. That is genuinely worse for convenience than a one-touch carafe, and it is the single biggest reason to spend more elsewhere. It is also, if you care about it, the only system here that lets you texture milk yourself and actually improve with practice.</p><p>Maintenance is a strong point. The brew group pulls out and rinses under the tap, most contact parts are dishwasher safe, and the machine runs an automatic rinse when you switch it on and off. The one consistent complaint in owner reviews is noise: reviewers measure the grinder at 65–70 dB for the ten to fifteen seconds it runs, which is loud enough to notice in an open-plan kitchen early in the morning.</p>",
-
       "pros": [
         "Real steel conical burr grinder with 13 settings at an entry price",
         "First cup from cold in about 38 seconds",
@@ -109,14 +213,130 @@
       "ideal_for": "Someone moving up from pods or drip who wants freshly ground espresso at the lowest sensible price, and does not mind learning to steam milk by hand.",
       "not_for": "Anyone who wants to press one button and be handed a cappuccino.",
       "reviews_summary": "Owners rate it 4.4 out of 5 and 89% say they would recommend it. The recurring praise is coffee quality and speed — several describe a good espresso in under a minute from a cold start. The recurring criticism is grinder noise and the amount of routine cleaning and descaling the machine asks for. A few reviewers found the steam wand and hot water sharing one control confusing at first.",
-
       "sources": [
-        { "label": "De'Longhi US — official product page", "url": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine/ECAM29043SB.html" },
-        { "label": "Best Buy — customer reviews", "url": "https://www.bestbuy.com/site/reviews/delonghi-magnifica-evo-espresso-machine-with-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver-ecam29043sb/6513290" },
-        { "label": "Coffeexplore — three-month hands-on review", "url": "https://coffeexplore.com/delonghi-magnifica-evo-review/" }
+        {
+          "label": "De'Longhi US — official product page",
+          "url": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine/ECAM29043SB.html"
+        },
+        {
+          "label": "Best Buy — customer reviews",
+          "url": "https://www.bestbuy.com/site/reviews/delonghi-magnifica-evo-espresso-machine-with-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver-ecam29043sb/6513290"
+        },
+        {
+          "label": "Coffeexplore — three-month hands-on review",
+          "url": "https://coffeexplore.com/delonghi-magnifica-evo-review/"
+        }
       ]
     },
-
+    {
+      "id": "gaggia-anima-prestige",
+      "asin": null,
+      "name": "Gaggia Anima Prestige",
+      "short_name": "Gaggia Anima Prestige",
+      "brand": "Gaggia",
+      "model": "Anima Prestige",
+      "affiliate_url": null,
+      "canonical_url": null,
+      "categories": [
+        "home",
+        "office"
+      ],
+      "featured": false,
+      "editor_badge": null,
+      "images": [
+        "assets/img/gaggia-anima-prestige-1.svg",
+        "assets/img/gaggia-anima-prestige-2.svg",
+        "assets/img/gaggia-anima-prestige-3.svg"
+      ],
+      "retail_price": 849.0,
+      "sale_price": 699.0,
+      "price_band": "medio",
+      "price_date": "2026-08-19",
+      "rating": null,
+      "rating_count": null,
+      "rating_source": null,
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1400,
+        "boiler_type": "Single stainless steel thermoblock",
+        "first_cup_seconds": 45,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "38 mm ceramic flat burr",
+        "grind_settings": 5,
+        "bypass_doser": true,
+        "water_tank_l": 1.8,
+        "bean_hopper_g": 250,
+        "grounds_capacity": 15,
+        "drinks_one_touch": 6,
+        "user_profiles": 1,
+        "display_type": "Blue text LED with buttons",
+        "touchscreen": false,
+        "iced_coffee_mode": false,
+        "milk_system": "Integrated double-chamber carafe",
+        "milk_one_touch": true,
+        "milk_carafe_l": 0.5,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": true,
+        "water_filter": "Intenza+ (optional)",
+        "dishwasher_safe_parts": true,
+        "noise_db": 73,
+        "housing_material": "Brushed stainless steel front, ABS sides",
+        "width_cm": 22.1,
+        "depth_cm": 43.0,
+        "height_cm": 34.0,
+        "weight_kg": 11.3,
+        "warranty_years": 1
+      },
+      "specs_extra": {
+        "Pump": "Ulka EP5/S vibratory, 13–15 bar measured at the brew group",
+        "Dose range": "7–11.5 g per shot",
+        "Brew group rating": "~20,000 brewing cycles",
+        "Milk temperature": "Reviewers measure 125–135 °F, below many users' preference",
+        "Noise": "72–75 dB measured at 1 metre by Coffeedant, not a manufacturer figure",
+        "Known fault": "A widely reported 'no beans' sensor fault; Coffeedant estimates it affects 40–60% of units in the first year",
+        "Extended warranty": "2 years available through authorised retailers"
+      },
+      "scores": {
+        "coffee": 6,
+        "milk": 7,
+        "ease": 6,
+        "care": 7,
+        "quiet": 4,
+        "value": 5
+      },
+      "summary": "An Italian one-touch machine with a genuinely compact footprint and a real ceramic burr grinder — undermined by a widely reported bean-sensor fault and only five grind settings. Good espresso from medium roasts if you get a healthy unit, and a gamble if you do not.",
+      "body": "<p>The Anima Prestige gets several things right that matter. At 22 cm wide it is the narrowest machine in this catalogue, which is the whole argument for it if your counter is tight. The ceramic flat burr grinder runs cool. The brew group pulls out and is rated for around 20,000 cycles. From cold it delivers a first cup in about 45 seconds. Set to the finest grind, maximum dose and highest temperature, it makes an espresso that holds its own against anything else near this price.</p><p>Then there is the sensor. Coffeedant's review documents a widely reported bean-detection fault, estimated to affect somewhere between 40% and 60% of units in the first year: the machine falsely reports that it has no beans and wastes the grind. The fixes are a warranty repair with a long turnaround, or an electrical modification that voids the warranty. That is not a footnote on a $700–850 machine, and it is the single reason this one sits where it does in our value score.</p><p>The rest of the compromises are ordinary for the price. Five grind settings is coarse — the Magnifica Evo gives you thirteen. The single thermoblock means the machine brews, then steams, then cools down, so a second milk drink takes about ninety seconds longer. Milk lands at 125–135 °F, which several reviewers call cooler than they want. And the interface is a blue text display with no profiles and no app.</p>",
+      "pros": [
+        "Narrowest machine here at 22 cm — fits counters others do not",
+        "Ceramic flat burr grinder that runs cool",
+        "First cup from cold in about 45 seconds",
+        "Removable brew group rated for around 20,000 cycles",
+        "Milk foam density approaching café standard"
+      ],
+      "cons": [
+        "Widely reported bean-sensor fault, estimated at 40–60% of units in year one",
+        "Only 5 grind settings — the coarsest adjustment in this catalogue",
+        "Single thermoblock: a second milk drink takes about 90 seconds longer",
+        "Milk output at 125–135 °F is cooler than many people want",
+        "Dated blue text display, no user profiles",
+        "1-year warranty as standard, the shortest here"
+      ],
+      "ideal_for": "Someone with a genuinely narrow counter who wants one-touch milk drinks from medium roasts, and who is comfortable dealing with a warranty claim if the sensor fault appears.",
+      "not_for": "Anyone who wants a machine to just work, or who drinks light roasts — five grind steps will not get you there.",
+      "reviews_summary": "We could not find a review sample large enough to publish a rating we would stand behind, so this machine shows no score. The published hands-on reviews are consistent: good espresso and a good footprint, let down by the bean-sensor fault and by slow sequential milk drinks. Read the recent owner reviews on the listing before buying this one — the fault rate is the thing to check.",
+      "sources": [
+        {
+          "label": "Coffeedant — Gaggia Anima Prestige review and full specifications",
+          "url": "https://coffeedant.com/espresso-machine/gaggia-anima-prestige/"
+        },
+        {
+          "label": "Coffeeness — Gaggia Anima Prestige review",
+          "url": "https://www.coffeeness.de/en/gaggia-anima-prestige-review/"
+        }
+      ]
+    },
     {
       "id": "philips-5400-lattego",
       "asin": "B092NGG9NM",
@@ -126,7 +346,10 @@
       "model": "EP5447/94",
       "affiliate_url": null,
       "canonical_url": "https://www.amazon.com/dp/B092NGG9NM",
-      "categories": ["office", "home"],
+      "categories": [
+        "office",
+        "home"
+      ],
       "featured": true,
       "editor_badge": "Easiest to live with",
       "images": [
@@ -134,7 +357,6 @@
         "assets/img/philips-5400-lattego-2.svg",
         "assets/img/philips-5400-lattego-3.svg"
       ],
-
       "retail_price": 1099.0,
       "sale_price": 799.0,
       "price_band": "mid",
@@ -142,39 +364,32 @@
       "rating": 4.89,
       "rating_count": 142,
       "rating_source": "Home Coffee Solutions customer reviews",
-
       "specs": {
         "pressure_bar": 15,
         "power_w": 1500,
         "boiler_type": "Thermoblock",
         "first_cup_seconds": null,
         "temperature_settings": 3,
-
         "grinder_integrated": true,
         "grinder_type": "100% ceramic burr",
         "grind_settings": 12,
         "bypass_doser": true,
-
         "water_tank_l": 1.8,
         "bean_hopper_g": 275,
         "grounds_capacity": 12,
-
         "drinks_one_touch": 12,
         "user_profiles": 5,
         "display_type": "Colour TFT",
         "touchscreen": true,
         "iced_coffee_mode": false,
-
         "milk_system": "LatteGo two-piece tube-free carafe",
         "milk_one_touch": true,
         "milk_carafe_l": 0.26,
-
         "auto_rinse": true,
         "auto_milk_clean": true,
         "removable_brew_group": true,
         "water_filter": "AquaClean CA6903",
         "dishwasher_safe_parts": true,
-
         "noise_db": 79,
         "housing_material": "Plastic with chrome finish",
         "width_cm": 24.6,
@@ -183,7 +398,6 @@
         "weight_kg": 8.0,
         "warranty_years": 2
       },
-
       "specs_extra": {
         "Aroma levels": "5 strength settings",
         "Grinder durability claim": "20,000 cups",
@@ -195,13 +409,16 @@
         "Noise figure": "Up to 79 dBA measured by TechRadar, not a manufacturer spec",
         "First cup time": "Not published by Philips; hands-on reviews describe the full first-cup routine rather than a heat-up figure"
       },
-
-      "scores": { "coffee": 7, "milk": 8, "ease": 9, "care": 9, "quiet": 3, "value": 8 },
-
+      "scores": {
+        "coffee": 7,
+        "milk": 8,
+        "ease": 9,
+        "care": 9,
+        "quiet": 3,
+        "value": 8
+      },
       "summary": "The machine that asks the least of you. Twelve one-touch drinks, four user profiles plus a guest slot, and a milk carafe with no tubes that rinses under the tap in about fifteen seconds. It is the obvious pick for a shared kitchen, and the only real complaint is that the grinder is loud.",
-
       "body": "<p>The LatteGo carafe is the reason this machine exists. Most one-touch milk systems pull milk through a tube that you have to flush, and in practice people stop flushing it. Philips replaced the whole thing with a two-piece carafe that has no tubes and no small parts: you pull it apart and rinse it at the tap in roughly fifteen seconds, or put it in the dishwasher. That one design decision is what makes a twelve-drink menu realistic in a house or office where nobody is going to run a cleaning cycle.</p><p>Around it sits a sensible rather than spectacular machine. The grinder uses 100% ceramic burrs with twelve macro steps, which is plenty for medium and dark roasts and a little coarse-grained if you are chasing a very light Nordic roast. Extraction is 15-bar through a 1500 W thermoblock. Five aroma levels and three brew temperatures give you real room to dial a bean in. The colour TFT display is the clearest of the three machines here, and four user profiles plus a guest slot mean an office kitchen does not turn into a settings war.</p><p>The AquaClean filter is worth understanding, because it changes the ownership maths: with eight timely filter swaps Philips rates the machine for up to 5,000 cups before it needs descaling. That is the difference between a machine you maintain a few times a year and one that nags you monthly. The trade-off is that the whole system depends on you actually replacing filters. And it is noisy — TechRadar measured up to 79 dBA, the loudest figure of the three.</p>",
-
       "pros": [
         "LatteGo carafe has no tubes and rinses at the tap in about 15 seconds",
         "12 one-touch drinks including cappuccino, flat white and latte macchiato",
@@ -220,15 +437,471 @@
       "ideal_for": "A shared kitchen — a household of three or four, or a small office — where several people want different drinks and nobody wants to be responsible for cleaning a milk system.",
       "not_for": "An open-plan studio where an early-morning grind at 79 dBA will wake somebody up.",
       "reviews_summary": "Rated 4.89 out of 5 across 142 retailer reviews. Owners consistently single out the milk cleanup and the repeatability of saved profiles. Reviewers praise the display and customisation; the criticisms that recur are the initial setup instructions, operating noise, and a fixed milk spout that requires the cup to be positioned carefully.",
-
       "sources": [
-        { "label": "Philips — official EP5447 specification sheet (PDF)", "url": "https://www.documents.philips.com/assets/20230520/6c7f850dddec49a99c14b0080157d048.pdf" },
-        { "label": "TechRadar — Philips 5400 LatteGo review", "url": "https://www.techradar.com/reviews/philips-5400-lattego" },
-        { "label": "Coffeedant — Philips 5400 LatteGo teardown and specs", "url": "https://coffeedant.com/espresso-machine/philips-5400-lattego/" },
-        { "label": "Home Coffee Solutions — product page and customer rating", "url": "https://www.homecoffeesolutions.com/products/philips-5400-lattego-super-automatic-espresso-cappuccino-latte-machine-ep5447-94" }
+        {
+          "label": "Philips — official EP5447 specification sheet (PDF)",
+          "url": "https://www.documents.philips.com/assets/20230520/6c7f850dddec49a99c14b0080157d048.pdf"
+        },
+        {
+          "label": "TechRadar — Philips 5400 LatteGo review",
+          "url": "https://www.techradar.com/reviews/philips-5400-lattego"
+        },
+        {
+          "label": "Coffeedant — Philips 5400 LatteGo teardown and specs",
+          "url": "https://coffeedant.com/espresso-machine/philips-5400-lattego/"
+        },
+        {
+          "label": "Home Coffee Solutions — product page and customer rating",
+          "url": "https://www.homecoffeesolutions.com/products/philips-5400-lattego-super-automatic-espresso-cappuccino-latte-machine-ep5447-94"
+        }
       ]
     },
-
+    {
+      "id": "philips-5500-lattego",
+      "asin": "B0DBHTL3CN",
+      "name": "Philips 5500 Series LatteGo EP5544/94",
+      "short_name": "Philips 5500 LatteGo",
+      "brand": "Philips",
+      "model": "EP5544/94",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B0DBHTL3CN",
+      "categories": [
+        "office",
+        "home"
+      ],
+      "featured": true,
+      "editor_badge": "Most drinks, quietest Philips",
+      "images": [
+        "assets/img/philips-5500-lattego-1.svg",
+        "assets/img/philips-5500-lattego-2.svg",
+        "assets/img/philips-5500-lattego-3.svg"
+      ],
+      "retail_price": 1049.0,
+      "sale_price": 899.0,
+      "price_band": "medio",
+      "price_date": "2026-08-19",
+      "rating": null,
+      "rating_count": null,
+      "rating_source": null,
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1500,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": null,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "100% ceramic burr",
+        "grind_settings": 12,
+        "bypass_doser": true,
+        "water_tank_l": 1.8,
+        "bean_hopper_g": 275,
+        "grounds_capacity": 12,
+        "drinks_one_touch": 20,
+        "user_profiles": 5,
+        "display_type": "Colour touch display",
+        "touchscreen": true,
+        "iced_coffee_mode": true,
+        "milk_system": "LatteGo two-piece tube-free carafe",
+        "milk_one_touch": true,
+        "milk_carafe_l": 0.26,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": true,
+        "water_filter": "AquaClean",
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Plastic with black chrome finish",
+        "width_cm": 24.6,
+        "depth_cm": 43.3,
+        "height_cm": 37.2,
+        "weight_kg": 8.2,
+        "warranty_years": 2
+      },
+      "specs_extra": {
+        "SilentBrew": "Philips states the machine runs 40% quieter than earlier models in the range",
+        "QuickStart": "Brews without waiting through a full warm-up cycle",
+        "Milk carafe cleaning": "Two parts, no tubes, cleaned in under 10 seconds",
+        "Descaling interval": "Up to 5,000 cups with timely AquaClean filter changes",
+        "Iced drinks": "The 20 presets include hot and iced recipes",
+        "Noise": "Philips does not publish a decibel figure for the SilentBrew system"
+      },
+      "scores": {
+        "coffee": 7,
+        "milk": 8,
+        "ease": 9,
+        "care": 9,
+        "quiet": 6,
+        "value": 8
+      },
+      "summary": "The 5400 with the two things people complained about fixed: twenty drinks instead of twelve, and a brew system Philips says runs 40% quieter. It keeps the tube-free LatteGo carafe and four user profiles, which is what made the 5400 the right machine for a shared kitchen in the first place.",
+      "body": "<p>If you read our Philips 5400 review, this is the same argument with the main objection removed. The 5400 is an excellent shared-kitchen machine that happens to be the loudest thing in this catalogue at up to 79 dBA. The 5500 adds SilentBrew, which Philips states runs 40% quieter than the earlier models in the range. Philips does not publish an actual decibel figure, so we cannot put a verified number in the table — but the mechanism is real and the direction is not in dispute.</p><p>The rest is a straightforward upgrade. Twenty presets instead of twelve, now including iced recipes, on a colour touch display. Four user profiles plus a guest slot survive intact, which remains the single most underrated specification for any machine more than two people share. The LatteGo carafe is unchanged in concept and slightly faster to clean — Philips now claims under ten seconds. QuickStart lets you brew without sitting through a full warm-up.</p><p>The extraction is where it stays honest about its price. Twelve macro grind steps through ceramic burrs at 15 bar is the same platform as the 3200 and 5400, and it makes the same clean, slightly polite espresso. It is not a Jura and it is not trying to be. What it is, is the most sensible machine in this catalogue for a kitchen where four people want different drinks and nobody wants an argument about the grinder setting.</p>",
+      "pros": [
+        "20 one-touch presets including iced recipes — the longest menu here",
+        "SilentBrew: Philips states 40% quieter than earlier models in the range",
+        "4 user profiles plus a guest slot, ideal for a shared kitchen",
+        "LatteGo carafe cleans at the tap in under 10 seconds",
+        "AquaClean stretches descaling to a claimed 5,000 cups",
+        "Removable brew group, and the lightest machine here at 8.2 kg"
+      ],
+      "cons": [
+        "Philips publishes no decibel figure, so 'quieter' cannot be verified against a number",
+        "12 macro grind steps still limit fine tuning on light roasts",
+        "Espresso is clean but polite — outclassed by the Dinamica Plus and both Juras",
+        "Plastic construction at a four-figure list price",
+        "Too new for a large body of owner reviews to have built up"
+      ],
+      "ideal_for": "A shared kitchen — a family of four or a small office — that wants a long drinks menu, per-person profiles and a milk system people will actually clean.",
+      "not_for": "An espresso purist. The platform is built around convenience and milk, not extraction.",
+      "reviews_summary": "This model is recent enough that we could not find a review sample large enough to publish a rating we would stand behind, so it shows no score rather than a misleading one. Reviews of the closely related 5400 — which shares the grinder, the milk carafe and the profile system — praise exactly those three things, and the main criticism of that machine, noise, is what SilentBrew targets here.",
+      "sources": [
+        {
+          "label": "Cafetiers — Philips 5500 Series full specifications",
+          "url": "https://www.cafetiers.ca/product/philips-5500-series-lattego-ep5544-90/"
+        },
+        {
+          "label": "Zanduco — Philips 5500 LatteGo product data",
+          "url": "https://www.zanduco.com/us/philips-5500-lattego-espresso-machine.html"
+        },
+        {
+          "label": "Amazon — product listing",
+          "url": "https://www.amazon.com/dp/B0DBHTL3CN"
+        }
+      ]
+    },
+    {
+      "id": "delonghi-dinamica-plus",
+      "asin": "B08TGCTT6C",
+      "name": "De'Longhi Dinamica Plus ECAM37095TI",
+      "short_name": "Dinamica Plus",
+      "brand": "De'Longhi",
+      "model": "ECAM37095TI",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B08TGCTT6C",
+      "categories": [
+        "home",
+        "office"
+      ],
+      "featured": true,
+      "editor_badge": "Best all-rounder",
+      "images": [
+        "assets/img/delonghi-dinamica-plus-1.svg",
+        "assets/img/delonghi-dinamica-plus-2.svg",
+        "assets/img/delonghi-dinamica-plus-3.svg"
+      ],
+      "retail_price": 1299.95,
+      "sale_price": 999.0,
+      "price_band": "medio",
+      "price_date": "2026-08-19",
+      "rating": 4.5,
+      "rating_count": 232,
+      "rating_source": "Best Buy customer reviews",
+      "specs": {
+        "pressure_bar": 19,
+        "power_w": 1250,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": null,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "Steel conical burr",
+        "grind_settings": 13,
+        "bypass_doser": true,
+        "water_tank_l": 1.8,
+        "bean_hopper_g": 300,
+        "grounds_capacity": 14,
+        "drinks_one_touch": 16,
+        "user_profiles": null,
+        "display_type": "3.5\" TFT colour touchscreen",
+        "touchscreen": true,
+        "iced_coffee_mode": true,
+        "milk_system": "LatteCrema auto-frothing carafe",
+        "milk_one_touch": true,
+        "milk_carafe_l": null,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": true,
+        "water_filter": "De'Longhi DLSC002",
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Titanium-grey plastic",
+        "width_cm": 23.6,
+        "depth_cm": 42.9,
+        "height_cm": 34.8,
+        "weight_kg": 10.5,
+        "warranty_years": 2
+      },
+      "specs_extra": {
+        "App": "De'Longhi Coffee Link over Bluetooth",
+        "Milk carafe": "Removable and designed to be stored in the fridge between drinks",
+        "Brew group material": "BPA-free plastic, removable",
+        "Warranty extension": "+1 year with product registration",
+        "User profiles": "Not confirmed in the sources we could verify"
+      },
+      "scores": {
+        "coffee": 8,
+        "milk": 8,
+        "ease": 9,
+        "care": 8,
+        "quiet": 5,
+        "value": 7
+      },
+      "summary": "The machine that does most things well and nothing badly. Nineteen-bar extraction through a thirteen-step steel burr grinder, sixteen recipes behind a 3.5-inch colour touchscreen, and a milk carafe you drop straight into the fridge. If you want one machine to stop thinking about, this is the shortlist.",
+      "body": "<p>The Dinamica Plus is what happens when a manufacturer stops chasing a single headline feature and just builds the whole machine properly. The grinder is a thirteen-step steel conical burr, the same adjustment range as the much cheaper Magnifica Evo, but here it feeds a 19-bar system and a 3.5-inch colour touchscreen with sixteen programmed recipes including iced coffee. Nothing about it is class-leading in isolation. Together it is the most complete machine under $1,000 in this catalogue.</p><p>The LatteCrema carafe is the detail that changes daily life. It froths automatically for one-touch cappuccinos, then comes off and goes in the fridge with the milk still in it — which means you are not pouring milk away or washing a carafe after every session. It runs its own cleaning cycle and the parts are dishwasher safe. The brew group is removable, so you keep the ability to actually inspect the machine.</p><p>What you are paying the premium for over a Philips 5400 is the extraction and the interface, not the milk. What you give up against a Jura is the last increment of espresso quality and a sense of solidity — this is a plastic machine in a titanium finish, and it feels like one. The Bluetooth app is the weakest part and owners say so: connectivity is slow and the interface is clunky. You never need it.</p>",
+      "pros": [
+        "19-bar extraction with a 13-step steel conical burr grinder",
+        "16 one-touch recipes including a proper iced coffee program",
+        "3.5-inch colour touchscreen — the clearest interface under $1,000 here",
+        "LatteCrema carafe detaches and goes straight into the fridge",
+        "Removable brew group and dishwasher-safe milk parts",
+        "Rated 4.5/5 across 232 reviews, with 89% recommending it"
+      ],
+      "cons": [
+        "The Coffee Link app is slow and clunky, by consistent owner report",
+        "1.8 L tank needs frequent refilling for a busy household",
+        "Plastic housing at a price where some rivals feel more solid",
+        "No published noise figure",
+        "User profile support is unclear in De'Longhi's own documentation"
+      ],
+      "ideal_for": "Someone buying one machine for a household of two to four who wants espresso quality and one-touch milk without stepping up to Jura money.",
+      "not_for": "A buyer who wants the app to be a real part of the experience, or who needs a tank that survives a full day of guests.",
+      "reviews_summary": "Rated 4.5 out of 5 across 232 reviews, with 89% recommending it. Coffee quality is the single most-mentioned strength, cited in around a hundred reviews, followed closely by ease of use and the built-in grinder. The complaints are narrow and consistent: the water tank is small for heavy use, the app is clunky, and a minority find the price steep — though most who raise price conclude the machine justifies it.",
+      "sources": [
+        {
+          "label": "Whole Latte Love — Dinamica Plus full specifications",
+          "url": "https://www.wholelattelove.com/products/delonghi-dinamica-plus-ecam37095ti-espresso-machine"
+        },
+        {
+          "label": "Best Buy — customer reviews",
+          "url": "https://www.bestbuy.com/site/reviews/delonghi-dinamica-plus-connected-fully-automatic-espresso-machine-with-built-in-grinder-titanium/6472004"
+        },
+        {
+          "label": "Abt — Dinamica Plus specification sheet",
+          "url": "https://www.abt.com/DeLonghi-Dinamica-Plus-Titanium-Smart-Coffee-Espresso-Machine-w-Coffee-Link-Connectivity-App-Automatic-Milk-Frother-ECAM37095TI/p/168027.html"
+        }
+      ]
+    },
+    {
+      "id": "jura-ena-8",
+      "asin": "B07YXD3JX4",
+      "name": "Jura ENA 8 Automatic Coffee Machine",
+      "short_name": "Jura ENA 8",
+      "brand": "Jura",
+      "model": "ENA 8",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B07YXD3JX4",
+      "categories": [
+        "premium",
+        "home"
+      ],
+      "featured": false,
+      "editor_badge": "Smallest premium machine",
+      "images": [
+        "assets/img/jura-ena-8-1.svg",
+        "assets/img/jura-ena-8-2.svg",
+        "assets/img/jura-ena-8-3.svg"
+      ],
+      "retail_price": 1999.0,
+      "sale_price": 1699.0,
+      "price_band": "premium",
+      "price_date": "2026-08-19",
+      "rating": null,
+      "rating_count": null,
+      "rating_source": null,
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1450,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": null,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "Aroma G3 steel conical burr",
+        "grind_settings": null,
+        "bypass_doser": true,
+        "water_tank_l": 1.1,
+        "bean_hopper_g": 125,
+        "grounds_capacity": null,
+        "drinks_one_touch": 15,
+        "user_profiles": 1,
+        "display_type": "2.8\" TFT colour",
+        "touchscreen": true,
+        "iced_coffee_mode": false,
+        "milk_system": "HP3 fine-foam frother",
+        "milk_one_touch": true,
+        "milk_carafe_l": null,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": false,
+        "water_filter": "CLARIS Smart+",
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Plastic with metal accents",
+        "width_cm": 27.3,
+        "depth_cm": 44.5,
+        "height_cm": 32.4,
+        "weight_kg": null,
+        "warranty_years": 2
+      },
+      "specs_extra": {
+        "Milk technology": "HP3 fine-foam, the same system used on the E8 and S8",
+        "Missing vs the E8": "No Pulse Extraction Process, so short drinks do not get the E8's ristretto treatment",
+        "App": "Jura WiFi Connect V2 (sold separately) enables app control",
+        "Maintenance rhythm": "Cleaning tablet every 200 cups, descale every 2–3 months, filter every 2 months",
+        "Milk rinse": "About 15 seconds after each use"
+      },
+      "scores": {
+        "coffee": 8,
+        "milk": 8,
+        "ease": 8,
+        "care": 6,
+        "quiet": 7,
+        "value": 5
+      },
+      "summary": "Jura's milk system and build in the smallest body they make it in. You get the same HP3 fine-foam frother as the E8 for several hundred dollars less — and you pay for it with a 1.1-litre tank, a 125-gram hopper and no Pulse Extraction.",
+      "body": "<p>The ENA 8 exists for one reason: counter space. Jura took the milk technology from the E8 and S8 — the HP3 fine-foam frother, which is the genuinely good part of a Jura — and put it in the smallest chassis they build. Fifteen one-touch specialities behind a 2.8-inch colour display, in a machine that fits where an E8 will not.</p><p>The capacity is where that shows. The tank holds 1.1 litres and the hopper 125 grams, roughly half the E8 on both counts. For one or two people making two or three drinks a day that is a minor daily chore. For a household of four it is a refill every morning and again after lunch, and at that point you have bought the wrong machine.</p><p>The other omission is Pulse Extraction. On the E8 the machine pulses water through the puck in bursts, which measurably improves ristretto and espresso — it is the reason the E8 makes the best cup in this catalogue. The ENA 8 brews conventionally. It still makes very good coffee through the Aroma G3 grinder, better than anything under $1,000 here, but the specific thing you are paying Jura money for is not in this model. And like every Jura, the brew unit is sealed: cleaning is chemical, on Jura's schedule, with Jura's tablets.</p>",
+      "pros": [
+        "HP3 fine-foam milk system, the same one used on the E8 and S8",
+        "The smallest footprint of any premium machine in this catalogue",
+        "15 one-touch specialities on a 2.8-inch colour display",
+        "Aroma G3 steel conical burr grinder",
+        "Fully automatic rinse and milk-cleaning programs"
+      ],
+      "cons": [
+        "1.1 L tank and 125 g hopper — roughly half the E8, and the smallest here",
+        "No Pulse Extraction Process, the E8's main advantage",
+        "Sealed brew unit: no manual cleaning, and you are committed to Jura consumables",
+        "Jura publishes no grind-setting count for this model",
+        "Costs more than the far more capable Dinamica Plus"
+      ],
+      "ideal_for": "One or two people who want Jura milk quality and genuinely cannot fit a full-size machine on the counter.",
+      "not_for": "A household of three or more — you would spend the difference refilling it. If space allows, the E8 is the better machine and the Dinamica Plus is the better value.",
+      "reviews_summary": "We could not find a review sample large enough to publish a rating we would stand behind, so this machine shows no score rather than a misleading one. Published hands-on reviews converge on the same verdict we reached: excellent milk, excellent build, and a capacity that only makes sense if the small footprint is solving a real problem for you.",
+      "sources": [
+        {
+          "label": "JuraEspressoMachines — ENA 8 review and specifications",
+          "url": "https://juraespressomachines.com/jura-ena-8-review/"
+        },
+        {
+          "label": "Seattle Coffee Gear — ENA 8 product data",
+          "url": "https://www.seattlecoffeegear.com/products/jura-ena-8-superautomatic-espresso-machine"
+        },
+        {
+          "label": "Coffeeness — Jura ENA 8 review",
+          "url": "https://www.coffeeness.de/en/jura-ena-8-review/"
+        }
+      ]
+    },
+    {
+      "id": "miele-cm5310-silence",
+      "asin": "B09BG74N8W",
+      "name": "Miele CM 5310 Silence",
+      "short_name": "Miele CM 5310",
+      "brand": "Miele",
+      "model": "CM 5310 Silence",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B09BG74N8W",
+      "categories": [
+        "premium",
+        "home"
+      ],
+      "featured": true,
+      "editor_badge": "Quietest here",
+      "images": [
+        "assets/img/miele-cm5310-silence-1.svg",
+        "assets/img/miele-cm5310-silence-2.svg",
+        "assets/img/miele-cm5310-silence-3.svg"
+      ],
+      "retail_price": 2199.0,
+      "sale_price": 1799.0,
+      "price_band": "premium",
+      "price_date": "2026-08-19",
+      "rating": 4.6,
+      "rating_count": 640,
+      "rating_source": "Majesty Coffee verified customer reviews",
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1450,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": null,
+        "temperature_settings": 3,
+        "grinder_integrated": true,
+        "grinder_type": "Steel conical burr",
+        "grind_settings": 5,
+        "bypass_doser": true,
+        "water_tank_l": 1.3,
+        "bean_hopper_g": 200,
+        "grounds_capacity": 7,
+        "drinks_one_touch": 8,
+        "user_profiles": 1,
+        "display_type": "DirectSensor text display",
+        "touchscreen": false,
+        "iced_coffee_mode": false,
+        "milk_system": "Integrated frother with removable milk pipework",
+        "milk_one_touch": true,
+        "milk_carafe_l": null,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": true,
+        "water_filter": null,
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Plastic with stainless steel parts",
+        "width_cm": 24.1,
+        "depth_cm": 46.0,
+        "height_cm": 36.0,
+        "weight_kg": null,
+        "warranty_years": 2
+      },
+      "specs_extra": {
+        "OneTouch for Two": "Brews two cups of any speciality at once",
+        "Drinks": "Ristretto, espresso, coffee, long coffee, cappuccino, latte macchiato, caffè latte, hot milk and milk froth",
+        "ComfortClean": "Contact parts are dishwasher safe",
+        "Standby draw": "Under 0.3 W",
+        "Profiles": "Memo function only; multiple user profiles start at the CM 5510",
+        "Noise": "Marketed as Silence and consistently described by reviewers as the quietest in its class; Miele publishes no decibel figure"
+      },
+      "scores": {
+        "coffee": 8,
+        "milk": 7,
+        "ease": 7,
+        "care": 8,
+        "quiet": 9,
+        "value": 6
+      },
+      "summary": "The one you buy because the kitchen opens onto the bedroom. Miele built this whole machine around not waking anyone up, and reviewers consistently rank it the quietest in its class. The espresso is genuinely good — full-bodied with real crema — and the interface is a decade behind everyone else.",
+      "body": "<p>Noise is the specification nobody publishes and everybody notices at seven in the morning. The grinder on a superautomatic runs for ten to fifteen seconds per drink at somewhere between 65 and 79 dB, and in an open-plan flat that is the difference between coffee and an argument. Miele built the CM 5310 around solving exactly that, called it Silence, and reviewers consistently confirm it is the quietest machine in its class. Miele does not publish a decibel figure, so the table here shows a dash — but this is the one machine in the catalogue where the marketing name is doing honest work.</p><p>What surprises people is that the coffee is not an afterthought. Reviewers describe the espresso as full-bodied and syrupy with excellent crema, from a stainless steel conical burr grinder and a genuinely well-built brew path. The materials are plastic with stainless steel parts, and the assembly quality is a clear step above the De'Longhi and Philips machines at similar money. OneTouch for Two brews a pair of any drink at once.</p><p>The interface is where Miele decided to save. It is a text display with buttons — no colour, no touchscreen, no user profiles beyond a memo function; for those you step up to the CM 5510. Five grind settings is coarse, the same limitation the Gaggia has. The 1.3-litre tank and 200-gram hopper are small. None of that stops it making excellent coffee quietly; all of it explains why it scores below machines that cost half as much on ease of use.</p>",
+      "pros": [
+        "Consistently rated the quietest machine in its class by reviewers",
+        "Full-bodied espresso with excellent crema from a steel conical burr grinder",
+        "Build quality a clear step above similarly priced De'Longhi and Philips machines",
+        "OneTouch for Two brews a pair of any speciality at once",
+        "Removable brew unit and dishwasher-safe contact parts",
+        "Rated 4.6/5 across more than 600 verified reviews"
+      ],
+      "cons": [
+        "Text display with buttons — the most dated interface in this catalogue",
+        "No user profiles, only a memo function",
+        "Only 5 grind settings",
+        "Small 1.3 L tank and 200 g hopper",
+        "Miele publishes no decibel figure, so 'quietest' rests on reviewer consensus",
+        "No water filter system listed"
+      ],
+      "ideal_for": "Anyone whose kitchen shares a wall with a bedroom, who values a well-made quiet machine and excellent espresso over a colour screen and a long drinks menu.",
+      "not_for": "A household that wants per-person profiles, a big menu, or a modern touchscreen — you can have all three for less elsewhere.",
+      "reviews_summary": "Rated 4.6 out of 5 across more than 600 verified customer reviews. The praise clusters tightly around two things: how quiet it is, and how good the espresso is for a superautomatic. The criticism is equally consistent and equally narrow — the interface feels dated, the water tank and bean hopper are small, and there are no user profiles. Nobody complains about how it is built.",
+      "sources": [
+        {
+          "label": "Miele USA — CM 5310 Silence official specifications",
+          "url": "https://www.mieleusa.com/product/11648150/countertop-coffee-machine-cm-5310-silence-obsidian-black"
+        },
+        {
+          "label": "Coffeeness — Miele CM 5310 review",
+          "url": "https://www.coffeeness.de/en/miele-cm-5310-review/"
+        },
+        {
+          "label": "Majesty Coffee — product page and customer rating",
+          "url": "https://majestycoffee.com/products/miele-cm-5310-silence-countertop-coffee-machine"
+        }
+      ]
+    },
     {
       "id": "jura-e8",
       "asin": "B097S6RL3T",
@@ -238,7 +911,11 @@
       "model": "E8 / EA 15270",
       "affiliate_url": null,
       "canonical_url": "https://www.amazon.com/dp/B097S6RL3T",
-      "categories": ["premium", "office", "professional"],
+      "categories": [
+        "premium",
+        "office",
+        "professional"
+      ],
       "featured": true,
       "editor_badge": "Best cup",
       "images": [
@@ -246,7 +923,6 @@
         "assets/img/jura-e8-2.svg",
         "assets/img/jura-e8-3.svg"
       ],
-
       "retail_price": 2599.0,
       "sale_price": 2299.0,
       "price_band": "premium",
@@ -254,39 +930,32 @@
       "rating": 3.9,
       "rating_count": 91,
       "rating_source": "ProductReview.com.au owner reviews",
-
       "specs": {
         "pressure_bar": 15,
         "power_w": 1450,
         "boiler_type": "Thermoblock with Pulse Extraction Process",
         "first_cup_seconds": null,
         "temperature_settings": 3,
-
         "grinder_integrated": true,
         "grinder_type": "Professional Aroma Grinder, stainless conical burr",
         "grind_settings": 6,
         "bypass_doser": true,
-
         "water_tank_l": 1.9,
         "bean_hopper_g": 280,
         "grounds_capacity": 16,
-
         "drinks_one_touch": 17,
         "user_profiles": 1,
         "display_type": "3.5\" colour TFT",
         "touchscreen": true,
         "iced_coffee_mode": false,
-
         "milk_system": "Automatic frother with fine-foam technology",
         "milk_one_touch": true,
         "milk_carafe_l": null,
-
         "auto_rinse": true,
         "auto_milk_clean": true,
         "removable_brew_group": false,
         "water_filter": "CLARIS Smart+",
         "dishwasher_safe_parts": true,
-
         "noise_db": null,
         "housing_material": "Plastic with chrome accents",
         "width_cm": 27.0,
@@ -295,7 +964,6 @@
         "weight_kg": 10.2,
         "warranty_years": 2
       },
-
       "specs_extra": {
         "Extraction technology": "Pulse Extraction Process (P.E.P.) — pulses water through the puck for short specialities",
         "Specialities": "17 programmed drinks including espresso, flat white, latte macchiato, Sweet Foam and Light Extraction",
@@ -303,13 +971,16 @@
         "Voltage": "110–120 V, 10 A",
         "Noise figure": "Jura does not publish a decibel rating for this model"
       },
-
-      "scores": { "coffee": 9, "milk": 8, "ease": 9, "care": 7, "quiet": 7, "value": 5 },
-
+      "scores": {
+        "coffee": 9,
+        "milk": 8,
+        "ease": 9,
+        "care": 7,
+        "quiet": 7,
+        "value": 5
+      },
       "summary": "The best cup in this catalogue, from the machine that asks the highest price for it. Pulse Extraction genuinely improves short drinks, the 3.5-inch colour display makes seventeen specialities easy to navigate, and everything cleans itself. The brew group is sealed, though, and owner reviews are noticeably more mixed than the marketing suggests.",
-
       "body": "<p>Jura's argument for the E8 is the Pulse Extraction Process, and unlike most espresso marketing it describes something real. Instead of pushing water through the puck in one continuous flow, the machine pulses it in short bursts. On long drinks that changes little; on ristretto and espresso, where contact time is the whole game, it produces noticeably more body than a machine at this pressure would otherwise manage. Paired with the Professional Aroma Grinder, it is the best espresso of the three machines here by a clear margin.</p><p>The rest of the machine is built around not thinking about it. Seventeen specialities sit behind a 3.5-inch colour display, milk drinks are one touch, and the maintenance programs run themselves — including a closed-loop milk cleaning container that means you are not emptying a drip tray of rinse water. The CLARIS Smart+ filter handles water hardness. In daily use it is the most frictionless machine of the three.</p><p>Two things stop it being an easy recommendation. The brew group is not removable, so deep cleaning is something the machine does chemically rather than something you do with a tap, and that suits some owners and not others. And the owner reviews are more divided than the press reviews: across 91 reviews the machine averages 3.9, with recurring complaints about excessive milk foam volume and milk-drink temperature. Espresso drinkers rate it highly; flat white drinkers are the ones who complain. Worth knowing before you spend this much.</p>",
-
       "pros": [
         "Pulse Extraction Process makes a genuinely better espresso than the others here",
         "17 one-touch specialities behind a clear 3.5-inch colour display",
@@ -328,16 +999,139 @@
       "ideal_for": "Someone making two to six drinks a day who cares more about what is in the cup than what it cost, and wants zero manual technique involved.",
       "not_for": "A buyer whose main drink is a large flat white, or anyone who wants to strip and rinse the brew group themselves.",
       "reviews_summary": "Averages 3.9 out of 5 across 91 owner reviews, with build quality scoring 4.3 and consistency 4.4 — the machine itself is not what people complain about. The two persistent criticisms are milk foam volume, described by several owners as wasteful, and the temperature of milk-based drinks. Espresso-focused owners rate it far higher than latte and flat white drinkers.",
-
       "sources": [
-        { "label": "Whole Latte Love — Jura E8 specifications", "url": "https://www.wholelattelove.com/products/jura-e8-espresso-machine" },
-        { "label": "JuraEspressoMachines — E8 review and specs", "url": "https://juraespressomachines.com/jura-e8-review/" },
-        { "label": "ProductReview — Jura E8 owner reviews", "url": "https://www.productreview.com.au/listings/jura-e8" },
-        { "label": "Seattle Coffee Gear — Jura E8 product data", "url": "https://www.seattlecoffeegear.com/products/jura-e8-superautomatic-espresso-machine" }
+        {
+          "label": "Whole Latte Love — Jura E8 specifications",
+          "url": "https://www.wholelattelove.com/products/jura-e8-espresso-machine"
+        },
+        {
+          "label": "JuraEspressoMachines — E8 review and specs",
+          "url": "https://juraespressomachines.com/jura-e8-review/"
+        },
+        {
+          "label": "ProductReview — Jura E8 owner reviews",
+          "url": "https://www.productreview.com.au/listings/jura-e8"
+        },
+        {
+          "label": "Seattle Coffee Gear — Jura E8 product data",
+          "url": "https://www.seattlecoffeegear.com/products/jura-e8-superautomatic-espresso-machine"
+        }
+      ]
+    },
+    {
+      "id": "jura-we8",
+      "asin": "B06XC9V38V",
+      "name": "Jura WE8 Professional Coffee Machine",
+      "short_name": "Jura WE8",
+      "brand": "Jura",
+      "model": "WE8",
+      "affiliate_url": null,
+      "canonical_url": "https://www.amazon.com/dp/B06XC9V38V",
+      "categories": [
+        "professional",
+        "office"
+      ],
+      "featured": false,
+      "editor_badge": "Built for an office",
+      "images": [
+        "assets/img/jura-we8-1.svg",
+        "assets/img/jura-we8-2.svg",
+        "assets/img/jura-we8-3.svg"
+      ],
+      "retail_price": 2799.0,
+      "sale_price": 2599.0,
+      "price_band": "premium",
+      "price_date": "2026-08-19",
+      "rating": null,
+      "rating_count": null,
+      "rating_source": null,
+      "specs": {
+        "pressure_bar": 15,
+        "power_w": 1450,
+        "boiler_type": "Thermoblock",
+        "first_cup_seconds": null,
+        "temperature_settings": 2,
+        "grinder_integrated": true,
+        "grinder_type": "Aroma G3 multi-level burr",
+        "grind_settings": null,
+        "bypass_doser": true,
+        "water_tank_l": 3.0,
+        "bean_hopper_g": 500,
+        "grounds_capacity": 25,
+        "drinks_one_touch": 12,
+        "user_profiles": 1,
+        "display_type": "TFT colour with operating buttons",
+        "touchscreen": false,
+        "iced_coffee_mode": false,
+        "milk_system": "Fine Foam Technology frother",
+        "milk_one_touch": true,
+        "milk_carafe_l": null,
+        "auto_rinse": true,
+        "auto_milk_clean": true,
+        "removable_brew_group": false,
+        "water_filter": "CLEARYL Smart with RFID detection",
+        "dishwasher_safe_parts": true,
+        "noise_db": null,
+        "housing_material": "Plastic with chrome accents",
+        "width_cm": 29.5,
+        "depth_cm": 44.5,
+        "height_cm": 41.9,
+        "weight_kg": 10.0,
+        "warranty_years": 1
+      },
+      "specs_extra": {
+        "Rated daily output": "Around 30 specialty cups per day",
+        "Dose range": "5–16 g per drink, with active bean-level monitoring",
+        "Coffee strength levels": "8",
+        "Adjustable spouts": "2.5–4.4 inches for standard drinks, 4.2–6 inches for cappuccino",
+        "Cup illumination": "Lights the cup during preparation",
+        "Water filter": "CLEARYL Smart, with RFID so the machine knows which filter is fitted"
+      },
+      "scores": {
+        "coffee": 8,
+        "milk": 8,
+        "ease": 8,
+        "care": 7,
+        "quiet": 7,
+        "value": 4
+      },
+      "summary": "A machine designed for a room full of people rather than a kitchen. Three litres of water, half a kilo of beans and a 25-serving grounds container mean it goes a full office day without anyone touching it — which is the entire point, and the reason its capacity numbers make every other machine here look domestic.",
+      "body": "<p>Everything that distinguishes the WE8 is about how long it runs unattended. The tank holds three litres, nearly double the biggest domestic machine in this catalogue. The hopper takes 500 grams of beans. The grounds container holds about 25 servings. Jura rates it for roughly 30 specialty cups a day. In a home those numbers are pointless; in an office of eight to twelve people they are the difference between a machine that works and a machine somebody has to babysit.</p><p>The coffee side is solid Jura. The Aroma G3 grinder doses 5 to 16 grams with active bean-level monitoring, there are eight strength levels and two brewing temperatures, and the Fine Foam frother makes the milk drinks that keep an office happy. The CLEARYL Smart filter uses RFID so the machine knows which filter is fitted and when it was changed — a small thing that matters enormously in a shared kitchen, where nobody remembers.</p><p>What it is not is good value in a house. At list price it costs more than the Jura E8, which makes a better cup thanks to Pulse Extraction, and it gives you a button-driven TFT rather than a touchscreen. The warranty is one year, the shortest here alongside the Gaggia. And like every Jura, the brew unit is sealed. Buy it because you need the capacity and the unattended running time. If you do not, almost anything else here is a better purchase.</p>",
+      "pros": [
+        "3 L water tank and 500 g bean hopper — by far the largest capacity here",
+        "25-serving grounds container, so it runs a full office day untouched",
+        "Aroma G3 grinder with 5–16 g dosing and active bean-level monitoring",
+        "8 coffee strength levels and 2 brewing temperatures",
+        "CLEARYL Smart filter with RFID so the machine tracks its own maintenance",
+        "Adjustable spouts from 2.5 to 6 inches for any cup or glass"
+      ],
+      "cons": [
+        "Costs more than the Jura E8, which makes a better cup",
+        "No Pulse Extraction Process at this price",
+        "1-year warranty — the shortest in this catalogue",
+        "Sealed brew unit, and Jura consumables for the life of the machine",
+        "Button-driven display rather than a touchscreen",
+        "The widest machine here at 29.5 cm, and the tallest at 41.9 cm"
+      ],
+      "ideal_for": "An office of roughly eight to twelve people, or anywhere a machine has to keep going all day without someone refilling it between drinks.",
+      "not_for": "A home. You would pay a premium for capacity you never use, and get a worse cup than the cheaper E8.",
+      "reviews_summary": "We could not find a review sample large enough to publish a rating we would stand behind, so this machine shows no score. It sells mainly through commercial channels rather than to consumers, which is why consumer review volume is thin — not a reflection on the machine. Jura's own rating of around 30 specialty cups a day is the number to plan around.",
+      "sources": [
+        {
+          "label": "1st in Coffee — Jura WE8 full specifications",
+          "url": "https://www.1stincoffee.com/jura-we8.htm"
+        },
+        {
+          "label": "Jura — WE8 official specifications",
+          "url": "https://us.jura.com/en/professional/machines/we8-ul-15145"
+        },
+        {
+          "label": "Amazon — product listing",
+          "url": "https://www.amazon.com/dp/B06XC9V38V"
+        }
       ]
     }
   ],
-
   "guides": [
     {
       "id": "best-superautomatic-espresso-machine-home-2026",
@@ -373,16 +1167,57 @@
         }
       ],
       "picks": [
-        { "product": "delonghi-magnifica-evo", "award": "Best value for one or two people", "why": "It has the grinder and the extraction hardware of a much more expensive machine, and the money it saves comes out of the milk system and the display. If you will steam your own milk, nothing here gets you more coffee per dollar." },
-        { "product": "philips-5400-lattego", "award": "Best for a shared kitchen", "why": "Four user profiles, twelve one-touch drinks, and a milk carafe that people will actually clean because it takes fifteen seconds at the tap. The one to buy if more than two people use it." },
-        { "product": "jura-e8", "award": "Best cup, if budget is not the constraint", "why": "Pulse Extraction makes a measurably better short drink and the machine maintains itself. Read the owner reviews on milk temperature first if flat whites are your main drink." }
+        {
+          "product": "philips-3200-lattego",
+          "award": "Best under $600",
+          "why": "The cheapest route to a one-touch cappuccino from whole beans, with the same tube-free milk carafe as machines twice the price. The espresso is the compromise — thin and fast — so buy it for milk drinks, not for straight shots."
+        },
+        {
+          "product": "delonghi-magnifica-evo",
+          "award": "Best value if you will steam your own milk",
+          "why": "A thirteen-step steel burr grinder and 15-bar extraction at a price where rivals still use pressurised baskets. All the money went into the cup instead of the milk system, which is the right trade if you enjoy the process."
+        },
+        {
+          "product": "delonghi-dinamica-plus",
+          "award": "Best all-rounder",
+          "why": "Nineteen-bar extraction, thirteen grind steps, sixteen recipes on a colour touchscreen, and a milk carafe that goes in the fridge between drinks. The most complete machine here under $1,000."
+        },
+        {
+          "product": "miele-cm5310-silence",
+          "award": "Best if noise matters",
+          "why": "Built around being quiet, and reviewers consistently rank it the quietest in its class. Full-bodied espresso and a build a clear step above its price rivals — you pay for it with a dated interface."
+        },
+        {
+          "product": "jura-e8",
+          "award": "Best cup, if budget is not the constraint",
+          "why": "Pulse Extraction makes a measurably better short drink and the machine maintains itself. Read the owner reviews on milk temperature first if flat whites are your main drink."
+        }
       ],
       "faqs": [
-        { "q": "Is 15 bar better than 9 bar?", "a": "No. Nine bar at the puck is the espresso standard; 15 bar is the pump's maximum, not the brewing pressure. Every machine in this category advertises 15 bar, so it does not distinguish them." },
-        { "q": "Do I need a machine with a removable brew group?", "a": "You do not need one, but it makes cleaning cheaper and more transparent. Sealed machines run effective automated cleaning cycles instead, at the cost of buying that brand's cleaning tablets for the machine's life." },
-        { "q": "How long does a superautomatic espresso machine last?", "a": "With regular descaling, seven to ten years is a normal lifespan for the machines in this range. Skipped descaling is the single most common cause of early failure, which is why water filter systems matter more than they look." },
-        { "q": "Can I use pre-ground coffee?", "a": "Yes. All three machines here have a bypass doser — a small chute for a single scoop of pre-ground coffee, which is how you make a decaf without emptying the hopper." },
-        { "q": "Are these machines loud?", "a": "The grinder is, for ten to fifteen seconds per drink. Reviewers measured 65–70 dB on the Magnifica Evo and up to 79 dBA on the Philips 5400. Jura does not publish a figure for the E8." }
+        {
+          "q": "Is 15 bar better than 9 bar?",
+          "a": "No. Nine bar at the puck is the espresso standard; 15 bar is the pump's maximum, not the brewing pressure. Every machine in this category advertises 15 bar, so it does not distinguish them."
+        },
+        {
+          "q": "Do I need a machine with a removable brew group?",
+          "a": "You do not need one, but it makes cleaning cheaper and more transparent. Sealed machines run effective automated cleaning cycles instead, at the cost of buying that brand's cleaning tablets for the machine's life."
+        },
+        {
+          "q": "How long does a superautomatic espresso machine last?",
+          "a": "With regular descaling, seven to ten years is a normal lifespan for the machines in this range. Skipped descaling is the single most common cause of early failure, which is why water filter systems matter more than they look."
+        },
+        {
+          "q": "Can I use pre-ground coffee?",
+          "a": "Yes. All three machines here have a bypass doser — a small chute for a single scoop of pre-ground coffee, which is how you make a decaf without emptying the hopper."
+        },
+        {
+          "q": "Are these machines loud?",
+          "a": "The grinder is, for ten to fifteen seconds per drink. Reviewers measured 65–70 dB on the Magnifica Evo and up to 79 dBA on the Philips 5400. Jura does not publish a figure for the E8."
+        },
+        {
+          "q": "How much should I actually spend?",
+          "a": "The steepest quality jump in this category is between about $500 and $1,000 — above that you are buying build, capacity and interface more than a better cup. Our highest-scoring machine overall costs under $900, and the most expensive machine here has the lowest value score."
+        }
       ]
     },
     {
@@ -411,13 +1246,39 @@
         }
       ],
       "picks": [
-        { "product": "philips-5400-lattego", "award": "Best small-office machine", "why": "Four profiles plus guest, a milk carafe a colleague will actually rinse, and AquaClean stretching descaling to thousands of cups. Built for exactly this problem." },
-        { "product": "jura-e8", "award": "Best for a client-facing office", "why": "Seventeen specialities, fully automated cleaning and the largest tank and hopper here. The right machine when the coffee is part of the impression you are making." }
+        {
+          "product": "philips-5500-lattego",
+          "award": "Best small-office machine",
+          "why": "Twenty presets, four profiles plus a guest slot, and a milk carafe a colleague will actually rinse because it takes ten seconds. SilentBrew addresses the one real complaint about its predecessor."
+        },
+        {
+          "product": "philips-5400-lattego",
+          "award": "Best value for a small team",
+          "why": "The same profiles and the same tube-free carafe for less money, if you can live with a shorter drinks menu and the loudest grinder in this catalogue."
+        },
+        {
+          "product": "jura-we8",
+          "award": "Best for a full office day",
+          "why": "Three litres of water, half a kilo of beans and a 25-serving grounds container. Rated for around 30 specialty cups a day, which is the only reason to pay this much."
+        }
       ],
       "faqs": [
-        { "q": "How many people can one superautomatic machine serve?", "a": "Realistically eight to twelve in an office, assuming two drinks each per day and someone refilling beans and water daily. Above that, look at plumbed commercial machines instead." },
-        { "q": "Who should own maintenance in an office?", "a": "One named person. Machines in shared kitchens fail from skipped descaling far more often than from wear, and 'everyone' owning it means nobody does." },
-        { "q": "Is a milk carafe or a milk fridge better for an office?", "a": "A carafe you can rinse in seconds beats a more capable system nobody cleans. Hygiene compliance matters more than foam quality once more than three people share the machine." }
+        {
+          "q": "How many people can one superautomatic machine serve?",
+          "a": "Realistically eight to twelve in an office, assuming two drinks each per day and someone refilling beans and water daily. Above that, look at plumbed commercial machines instead."
+        },
+        {
+          "q": "Who should own maintenance in an office?",
+          "a": "One named person. Machines in shared kitchens fail from skipped descaling far more often than from wear, and 'everyone' owning it means nobody does."
+        },
+        {
+          "q": "Is a milk carafe or a milk fridge better for an office?",
+          "a": "A carafe you can rinse in seconds beats a more capable system nobody cleans. Hygiene compliance matters more than foam quality once more than three people share the machine."
+        },
+        {
+          "q": "How big does the water tank need to be for an office?",
+          "a": "A 1.8-litre tank is roughly twenty drinks, so a team of eight will empty it before lunch. If nobody is reliably refilling it, step up to a machine built for the job — the Jura WE8 holds three litres and a 25-serving grounds container, and runs a full day untouched."
+        }
       ]
     }
   ]
